@@ -10,5 +10,8 @@
 #import <Foundation/Foundation.h>
 
 #import "BDImageTools.h"
+#import "BDJsonTools.h"
+#import "BDTextTools.h"
+#import "NSString+currencyTransform.h"
 
 #endif /* Header_h */
