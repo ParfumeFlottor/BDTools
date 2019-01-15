@@ -16,6 +16,9 @@
 		7423C44621EDBD4200220DFC /* BDToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7423C44521EDBD4200220DFC /* BDToolsTests.m */; };
 		7423C45121EDBD4200220DFC /* BDToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7423C45021EDBD4200220DFC /* BDToolsUITests.m */; };
 		7423C46321EDBD7800220DFC /* BDImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7423C46221EDBD7800220DFC /* BDImageTools.m */; };
+		7423C46621EDC91D00220DFC /* BDTextTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7423C46521EDC91D00220DFC /* BDTextTools.m */; };
+		7423C46921EDC9DF00220DFC /* BDJsonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7423C46821EDC9DF00220DFC /* BDJsonTools.m */; };
+		7423C46C21EDCB9E00220DFC /* NSString+currencyTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7423C46A21EDCB9E00220DFC /* NSString+currencyTransform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		7423C45F21EDBD7800220DFC /* BDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDTools.h; sourceTree = "<group>"; };
 		7423C46121EDBD7800220DFC /* BDImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDImageTools.h; sourceTree = "<group>"; };
 		7423C46221EDBD7800220DFC /* BDImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDImageTools.m; sourceTree = "<group>"; };
+		7423C46421EDC91D00220DFC /* BDTextTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDTextTools.h; sourceTree = "<group>"; };
+		7423C46521EDC91D00220DFC /* BDTextTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDTextTools.m; sourceTree = "<group>"; };
+		7423C46721EDC9DF00220DFC /* BDJsonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDJsonTools.h; sourceTree = "<group>"; };
+		7423C46821EDC9DF00220DFC /* BDJsonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDJsonTools.m; sourceTree = "<group>"; };
+		7423C46A21EDCB9E00220DFC /* NSString+currencyTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+currencyTransform.m"; sourceTree = "<group>"; };
+		7423C46B21EDCB9E00220DFC /* NSString+currencyTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+currencyTransform.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +149,15 @@
 		7423C45E21EDBD7800220DFC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				7423C46B21EDCB9E00220DFC /* NSString+currencyTransform.h */,
+				7423C46A21EDCB9E00220DFC /* NSString+currencyTransform.m */,
 				7423C45F21EDBD7800220DFC /* BDTools.h */,
 				7423C46121EDBD7800220DFC /* BDImageTools.h */,
 				7423C46221EDBD7800220DFC /* BDImageTools.m */,
+				7423C46421EDC91D00220DFC /* BDTextTools.h */,
+				7423C46521EDC91D00220DFC /* BDTextTools.m */,
+				7423C46721EDC9DF00220DFC /* BDJsonTools.h */,
+				7423C46821EDC9DF00220DFC /* BDJsonTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -277,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7423C46621EDC91D00220DFC /* BDTextTools.m in Sources */,
+				7423C46921EDC9DF00220DFC /* BDJsonTools.m in Sources */,
 				7423C43121EDBD4000220DFC /* ViewController.m in Sources */,
 				7423C43C21EDBD4200220DFC /* main.m in Sources */,
+				7423C46C21EDCB9E00220DFC /* NSString+currencyTransform.m in Sources */,
 				7423C42E21EDBD4000220DFC /* AppDelegate.m in Sources */,
 				7423C46321EDBD7800220DFC /* BDImageTools.m in Sources */,
 			);

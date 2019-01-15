@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "BDTools"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.ios.deployment_target = '7.0'
     s.summary      = "BDTools是一个工具类"
     s.homepage     = "https://github.com/ParfumeFlottor/BDTools.git"
