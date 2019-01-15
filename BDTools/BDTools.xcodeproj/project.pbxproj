@@ -141,18 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				7423C45F21EDBD7800220DFC /* BDTools.h */,
-				7423C46021EDBD7800220DFC /* standard */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		7423C46021EDBD7800220DFC /* standard */ = {
-			isa = PBXGroup;
-			children = (
 				7423C46121EDBD7800220DFC /* BDImageTools.h */,
 				7423C46221EDBD7800220DFC /* BDImageTools.m */,
 			);
-			path = standard;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
